@@ -44,7 +44,3 @@ class Student7(models.Model):
 class Student14(models.Model):
     name = models.CharField(max_length=50)
     age = models.IntegerField()           
-
-class Student101(models.Model):
-    name = models.CharField(max_length=50)
-    age = models.IntegerField()               
