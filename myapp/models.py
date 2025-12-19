@@ -23,3 +23,7 @@ class Student3(models.Model):
 class Student4(models.Model):
     name = models.CharField(max_length=50)
     age = models.IntegerField()    
+
+class Student4(models.Model):
+    name = models.CharField(max_length=50)
+    age = models.IntegerField()        
